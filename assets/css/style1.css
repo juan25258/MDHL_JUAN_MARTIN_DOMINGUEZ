@@ -1,0 +1,25 @@
+*{
+font-family: sans-serif;
+}
+body{
+  background-color: rgb(218, 122, 122);  
+}
+header {
+    color: blue;
+    background-color: rgb(100, 187, 105);
+}
+nav{
+background-color: rgb(105, 95, 95);
+}
+main{
+background-color: rgb(105, 201, 230);
+}
+footer{
+  color: rgb(12, 189, 12);
+  background-color: rgb(99, 93, 93);
+  font: bold;
+  padding: 5px;
+  margin-top: 2px;
+  text-align: center;
+}
+
