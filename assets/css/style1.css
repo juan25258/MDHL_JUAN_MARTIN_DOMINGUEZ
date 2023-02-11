@@ -1,25 +1,40 @@
 *{
 font-family: sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 body{
-  background-color: rgb(218, 122, 122);  
+    background-color: rgb(218, 122, 122);  
 }
 header {
+    display: inline-block;
+    min-height: 20vh;
+    padding: 2rem;
     color: blue;
     background-color: rgb(100, 187, 105);
+    width: 100%;
 }
+h1{
+    width: 100%;
+    text-align: left;
+}
+
 nav{
-background-color: rgb(105, 95, 95);
+    min-height: 5vh;
+    background-color: rgb(105, 95, 95);
 }
 main{
-background-color: rgb(105, 201, 230);
+    min-height: 75vh;
+    background-color: rgb(105, 201, 230);
 }
 footer{
-  color: rgb(12, 189, 12);
-  background-color: rgb(99, 93, 93);
-  font: bold;
-  padding: 5px;
-  margin-top: 2px;
-  text-align: center;
+    min-height: 5vh;
+    color: rgb(12, 189, 12);
+    background-color: rgb(99, 93, 93);
+    font: bold;
+    padding: 5px;
+    margin-top: 2px;
+    text-align: center;
 }
 
