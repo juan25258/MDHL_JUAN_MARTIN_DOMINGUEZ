@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+body{
+    /* background-color: rgb(218, 122, 122); */  
+}
+
+header {
+   
+}
+nav{
+    background-color: black;
+    height: 3rem;
+}
+nav a{
+    
+}
+a[href="#"]{
+    background-color: #6fac46;
+}
+
+header img{
+   
+}
+header h2{
+    
+}
+
+
+main{
+    
+}
+main img{
+   
+}
+main div{
+
+}
+aside{
+    
+}
+main p{
+    
+}
+footer{
+    min-height: 5vh;
+    color: rgb(12, 189, 12);
+    background-color: rgb(99, 93, 93);
+    font: bold;
+    padding: 5px;
+    margin-top: 2px;
+    text-align: center;
+}
