@@ -5,15 +5,15 @@
     font-family: sans-serif;
   }
 body{
-    background-color: rgb(73, 68, 68);  
+    background-color: rgb(49 101 102);  
 }
 
 header {
    width: 100%;
 }
 h1{
-    color: white;
-    background-color: chocolate;
+    color: rgb(26, 175, 201);
+    background-color: #0e1d44;
     /* height: 3rem; */
     width: inherit;
     position: fixed;
@@ -34,13 +34,16 @@ nav{
 }
 nav a{
     text-align: center;
-    background: cyan;
+    background: linear-gradient(45deg, black, transparent);
     height: 3rem;
     border-radius: 10px;
     padding: 1rem 3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 a[href="#"]{
-    background-color: #6fac46;
+    background-color: dodgerblue;
 }
 
 header img{
@@ -56,20 +59,28 @@ header h2{
 main{
     position: relative;
     display: inline-block;
+    width: 99vw;
+    left: 2rem;
+    bottom: 1rem;
 }
 main img{
-  width: 150px; 
+  width: 300px; 
 }
 main div{
-
+    display: inline-block;
+    /* background-color: darkorange; */
 }
 aside{
-    position: relative;
-    background-color: darkred;
+    position: absolute;
+    /* background-color: darkred; */
     display: inline-block;
-    width: 150vh;
-    right: -5rem;
-    margin-bottom: 4rem;  
+    width: 100vh;
+    right: 18rem;
+    margin-bottom: 4rem;
+    top: 4rem;  
+}
+aside a{
+    color: darkorange;
 }
 main p{
     
