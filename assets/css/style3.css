@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* outline: red solid 1px; */
+}
+
+header{
+    background-color: cornflowerblue;
+    min-height: 20vh;
+    display: flex;
+    padding: 2px;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+header div{
+    display: flex;
+    height: 7rem;
+    flex-grow: 1;
+}
+header img{
+    height: 10rem;
+    width: 9rem;
+    object-fit: contain;
+    flex-grow: 1;
+}
+h1{
+    font-size: 3rem;
+    flex-grow: 2;
+}
+
+nav {
+    min-height: 6vh;
+    width: 99vw;
+    background-color: cornflowerblue;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+nav a{
+    display: flex;
+    /* text-align: center; */
+    background: linear-gradient(0deg, #f18181, transparent);
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10px;
+    padding: 2px 2px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+a[href="#"]{
+    background-color: #043e3a;
+}
+main{
+    background-color: cornflowerblue;
+    padding: 2px;
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: flex-start;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+main div{
+    height: 60vh;
+    margin-top: 1rem;
+    display: contents;    
+}
+
+main img{
+    /* height: 60vh; */
+    width: 60vw;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+aside{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    width: 35vw;
+    padding-top: 3rem;
+}
+
+
+th, td, tr{
+    border: #0c0505 1px solid;
+    padding: 1rem;
+    text-align: center;
+}
+
+.rules{
+    display: inline-block;
+    text-align: justify;
+    height: auto;
+}
+.prules{
+    text-align: center;
+}
+.psport{
+    margin: 2rem;
+}
+
+.lista-numero{
+    margin: 3rem;
+}
+.lista-desordenada{
+    margin: 3rem;
+}
+.table{
+    /* display: inline-block; */
+    display: grid;
+    text-align: justify;
+    height: auto;
+    margin-inline:20vw;
+}
+
+.tablepd{
+    background-color: lightskyblue;
+    border-collapse: collapse;
+}
+footer{
+    display: flex;
+    color: white;
+    background-color: rgb(2, 0, 10);
+    padding: 2px;
+    min-height: 5vh;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
