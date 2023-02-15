@@ -99,15 +99,40 @@ aside{
     padding-top: 3rem;
 }
 
-table{
-     
-}
+
 th, td, tr{
     border: #0c0505 1px solid;
     padding: 1rem;
     text-align: center;
 }
 
+.rules{
+    display: inline-block;
+    text-align: justify;
+    height: auto;
+}
+.prules{
+    text-align: center;
+}
+.psport{
+    margin: 2rem;
+}
+
+.lista-numero{
+    margin: 3rem;
+}
+.lista-desordenada{
+    margin: 3rem;
+}
+.table{
+    display: inline-block;
+    text-align: justify;
+    height: auto;
+}
+
+.pie-table{
+
+}
 footer{
     display: flex;
     color: white;
