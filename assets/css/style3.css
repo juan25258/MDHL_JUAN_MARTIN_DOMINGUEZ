@@ -125,13 +125,16 @@ th, td, tr{
     margin: 3rem;
 }
 .table{
-    display: inline-block;
+    /* display: inline-block; */
+    display: grid;
     text-align: justify;
     height: auto;
+    margin-inline:20vw;
 }
 
-.pie-table{
-
+.tablepd{
+    background-color: lightskyblue;
+    border-collapse: collapse;
 }
 footer{
     display: flex;
