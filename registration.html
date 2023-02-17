@@ -31,22 +31,22 @@
                     <fieldset class="player">
                         <legend><strong>Player's</strong> </legend>
                         <label for="FName">First name:</label>
-                        <input type="text" id="FName" name="FName" value="">
+                        <input type="text" id="FName" name="FName" value="" required>
                         <label for="LName">Last name:</label>
-                        <input type="text" id="LName" name="LName" value=""><br><br>
+                        <input type="text" id="LName" name="LName" value="" required><br><br>
                         <label for="SAdrees">Street Adrees:</label>
-                        <input type="text" id="SAdrees" name="SAdrees"><br><br>
+                        <input type="text" id="SAdrees" name="SAdrees" required><br><br>
                         <label for="City">City</label>
-                        <input type="text" name="City" id="City">
+                        <input type="text" name="City" id="City" required>
                         <label for="ZipCode">Zip Code:</label>
                         <input type="number" name="ZipCode" id="ZipCode"><br><br>
                         <label for="BirthDate">Birth Date:</label>
-                        <input type="date" name="BirthDate" id="BirtDate" value="(mm/dd/yyyy)">
+                        <input type="date" name="BirthDate" id="BirtDate" value="(mm/dd/yyyy)" required>
                         Gender:
                         <label for="GFemale">Female</label>
-                        <input type="checkbox" name="Female" id="GFemale">
+                        <input type="radio" name="Gender" id="GFemale" value="F" required>
                         <label for="GMale">Male</label>
-                        <input type="checkbox" name="Male" id="GMale"><br><br>
+                        <input type="radio" name="Gender" id="GMale" value="M" required><br><br>
                         Grade:
                         <input type="checkbox" name="Pre-School" id="Pre-School">
                         <Label for="Pre-School">Pre-School</Label>
@@ -67,17 +67,17 @@
             
                     <fieldset class="form-distancia">
                         <legend><strong>Which elementary school do you live near?</strong></legend>
-                        <input type="radio" name="nearestschool" id="AJKatzenmaier">
+                        <input type="radio" name="nearestschool" id="AJKatzenmaier" value="AJ Katzenmaier" required>
                         <label for="AJKatzenmaier">AJ Katzenmaier</label>
-                        <input type="radio" name="nearestschool" id="MarjoriePHart">
+                        <input type="radio" name="nearestschool" id="MarjoriePHart" value="Marjorie P Hart" required>
                         <label for="MarjoriePHart">Marjorie P Hart</label>
-                        <input type="radio" name="nearestschool" id="Greenbay">
+                        <input type="radio" name="nearestschool" id="Greenbay" value="Greenbay" required>
                         <label for="Greenbay">Greenbay</label><br><br>
-                        <input type="radio" name="nearestschool" id="NorthElementary">
+                        <input type="radio" name="nearestschool" id="NorthElementary" value="North Elementary" required>
                         <label for="NorthElementary">North Elementary</label>
-                        <input type="radio" name="nearestschool" id="HowardAyeager">
+                        <input type="radio" name="nearestschool" id="HowardAyeager" value="Howard A yeager" required>
                         <label for="HowardAyeager">Howard A yeager</label>
-                        <input type="radio" name="nearestschool" id="SouthElementary">
+                        <input type="radio" name="nearestschool" id="SouthElementary" value="SouthElementary" required>
                         <label for="SouthElementary">SouthElementary</label>
                     </fieldset>
                      
@@ -95,19 +95,19 @@
                     
                     <fieldset class="size">
                         <legend><strong>Uniform Size:</strong></legend>
-                        <input type="radio" name="size" id="YouthSmall">
+                        <input type="radio" name="size" id="YouthSmall" value="YS" required>
                         <label for="YouthSmall">Youth Small</label>
-                        <input type="radio" name="size" id="YouthMedium">
+                        <input type="radio" name="size" id="YouthMedium" value="YM" required>
                         <label for="YouthMedium">Youth Medium</label>
-                        <input type="radio" name="size" id="YouthLarge">
+                        <input type="radio" name="size" id="YouthLarge" value="YL" required>
                         <label for="YouthLarge">Youth Large</label>
-                        <input type="radio" name="size" id="Small">
+                        <input type="radio" name="size" id="Small" value="S" required>
                         <label for="Small">Small</label><br><br>
-                        <input type="radio" name="size" id="Medium">
+                        <input type="radio" name="size" id="Medium" value="M" required>
                         <label for="Medium">Medium</label>
-                        <input type="radio" name="size" id="Large">
+                        <input type="radio" name="size" id="Large" value="L" required>
                         <label for="Large">Large</label>
-                        <input type="radio" name="size" id="Extra-Large">
+                        <input type="radio" name="size" id="Extra-Large" value="XL" required>
                         <label for="Extra-Large">Extra-Large</label>
                     
                     </fieldset>
@@ -118,12 +118,12 @@
                             I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with with hockey and in consideration for the “League” accepting the registrant for its hockey program and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the programand/orbeing to or from MDHL sponsored activities, wich transportation.
                             By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
                         </p>
-                        <input type="checkbox" name="Terms" id="Terms">
+                        <input type="checkbox" name="Terms" id="Terms" required>
                         <label for="Terms">Acep the Terms</label><br><br>
                         <label for="Tutor">Parents/GuardianSignature: </label>
-                        <input type="text" name="Tutor" id="Tutor">
+                        <input type="text" name="Tutor" id="Tutor" required>
                         <label for="Date">Date</label>
-                        <input type="date" name="Date" id="Date">
+                        <input type="date" name="Date" id="Date" required>
                     </fieldset>
             
             

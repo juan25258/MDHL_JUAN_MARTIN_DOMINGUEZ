@@ -165,6 +165,7 @@ input.form-submit{
     top: 0.5rem;
     background-color: #3999f5;
     border-radius: 10px;
+    border: 0px;
 }
 .player{
     padding: 0.5rem;
