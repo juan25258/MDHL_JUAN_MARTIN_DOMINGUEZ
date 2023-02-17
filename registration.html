@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./assets/css/style3.css">
+</head>
+<body>
+    
+    <main class="main-form">
+        <aside class="aside-form">
+            <div>
+                <h1 class="h1reg">Registration Form</h1>
+                <form action="./show_data.html" method="get">
+                    <fieldset class="player">
+                        <legend><strong>Player's</strong> </legend>
+                        <label for="FName">First name:</label>
+                        <input type="text" id="FName" name="FName" value="">
+                        <label for="LName">Last name:</label>
+                        <input type="text" id="LName" name="LName" value=""><br><br>
+                        <label for="SAdrees">Street Adrees:</label>
+                        <input type="text" id="SAdrees" name="SAdrees"><br><br>
+                        <label for="City">City</label>
+                        <input type="text" name="City" id="City">
+                        <label for="ZipCode">Zip Code:</label>
+                        <input type="number" name="ZipCode" id="ZipCode"><br><br>
+                        <label for="BirthDate">Birth Date:</label>
+                        <input type="date" name="BirthDate" id="BirtDate" value="(mm/dd/yyyy)">
+                        Gender:
+                        <label for="GFemale">Female</label>
+                        <input type="checkbox" name="Female" id="GFemale">
+                        <label for="GMale">Male</label>
+                        <input type="checkbox" name="Male" id="GMale"><br><br>
+                        Grade:
+                        <input type="checkbox" name="Pre-School" id="Pre-School">
+                        <Label for="Pre-School">Pre-School</Label>
+                        <input type="checkbox" name="1st" id="1st">
+                        <Label for="1st">1st</Label>
+                        <input type="checkbox" name="2nd" id="2nd">
+                        <Label for="2nd">2nd</Label>
+                        <input type="checkbox" name="3rd" id="3rd">
+                        <Label for="3rd">3rd</Label>
+                        <input type="checkbox" name="4th" id="4th">
+                        <Label for="4th">4th</Label>
+                        <input type="checkbox" name="5th" id="5th">
+                        <Label for="5th">5th</Label><br><br>
+            
+                        
+                        
+                    </fieldset>
+            
+                    <fieldset class="form-distancia">
+                        <legend><strong>Which elementary school do you live near?</strong></legend>
+                        <input type="radio" name="nearestschool" id="AJKatzenmaier">
+                        <label for="AJKatzenmaier">AJ Katzenmaier</label>
+                        <input type="radio" name="nearestschool" id="MarjoriePHart">
+                        <label for="MarjoriePHart">Marjorie P Hart</label>
+                        <input type="radio" name="nearestschool" id="Greenbay">
+                        <label for="Greenbay">Greenbay</label><br><br>
+                        <input type="radio" name="nearestschool" id="NorthElementary">
+                        <label for="NorthElementary">North Elementary</label>
+                        <input type="radio" name="nearestschool" id="HowardAyeager">
+                        <label for="HowardAyeager">Howard A yeager</label>
+                        <input type="radio" name="nearestschool" id="SouthElementary">
+                        <label for="SouthElementary">SouthElementary</label>
+                    </fieldset>
+                     
+                    <fieldset class="posicion">
+                        <legend><strong>What position(s) do you normally play? (check all that apply)</strong></legend>
+                        <input type="checkbox" name="Forward" id="Forward">
+                        <label for="Forward">Forward</label>
+                        <input type="checkbox" name="Midfield" id="Midfield">
+                        <label for="Midfield">Midfield</label>
+                        <input type="checkbox" name="Defense" id="Defense">
+                        <label for="Defense">Defense</label>
+                        <input type="checkbox" name="Goalkeeper" id="Goalkeeper">
+                        <label for="Goalkeeper">Goalkeeper</label>
+                    </fieldset>
+                    
+                    <fieldset class="size">
+                        <legend><strong>Uniform Size:</strong></legend>
+                        <input type="radio" name="size" id="YouthSmall">
+                        <label for="YouthSmall">Youth Small</label>
+                        <input type="radio" name="size" id="YouthMedium">
+                        <label for="YouthMedium">Youth Medium</label>
+                        <input type="radio" name="size" id="YouthLarge">
+                        <label for="YouthLarge">Youth Large</label>
+                        <input type="radio" name="size" id="Small">
+                        <label for="Small">Small</label><br><br>
+                        <input type="radio" name="size" id="Medium">
+                        <label for="Medium">Medium</label>
+                        <input type="radio" name="size" id="Large">
+                        <label for="Large">Large</label>
+                        <input type="radio" name="size" id="Extra-Large">
+                        <label for="Extra-Large">Extra-Large</label>
+                    
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend><strong>Permission to Play</strong></legend>
+                        <p>
+                            I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with with hockey and in consideration for the “League” accepting the registrant for its hockey program and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the programand/orbeing to or from MDHL sponsored activities, wich transportation.
+                            By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
+                        </p>
+                        <input type="checkbox" name="Terms" id="Terms">
+                        <label for="Terms">Acep the Terms</label><br><br>
+                        <label for="Tutor">Parents/GuardianSignature: </label>
+                        <input type="text" name="Tutor" id="Tutor">
+                        <label for="Date">Date</label>
+                        <input type="date" name="Date" id="Date">
+                    </fieldset>
+            
+            
+                    <input class="form-submit" type="submit" value="Submit"><br><br>
+
+                        
+                </form>
+            
+            </div>
+        </aside>
+        
+    </main>
+        
+</body>
+</html>
