@@ -124,9 +124,7 @@ th, td, tr{
 .lista-desordenada{
     margin: 3rem;
 }
-div.table{
 
-}
 .table{
     /* display: inline-block; */
     display: grid;
@@ -142,19 +140,20 @@ div.table{
 .main-form{
     background-image: url("../../assets/imagenes/design1_image1.jpg");
     background-size: auto;
-    height: 160rem;
-}
-aside.maps{
-
 }
 
 .aside-form{
     background-color: rgba(226, 218, 218, 0.753);
-    width: 42vw;
+    width: 57vw;
     height: fit-content;
+    margin-top: 1rem;
 }
 h1.h1reg{
     text-align: center;
+}
+
+h2.h2-locations{
+    width: -webkit-fill-available;
 }
 fieldset{
     padding: 0.5rem;
@@ -163,8 +162,9 @@ input.form-submit{
     position: relative;
     padding: 0.5rem;
     left: 5rem;
-    top: 1rem;
-    bottom: 0rem;
+    top: 0.5rem;
+    background-color: #3999f5;
+    border-radius: 10px;
 }
 .player{
     padding: 0.5rem;
