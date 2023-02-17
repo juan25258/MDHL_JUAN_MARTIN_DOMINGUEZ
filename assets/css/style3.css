@@ -124,6 +124,9 @@ th, td, tr{
 .lista-desordenada{
     margin: 3rem;
 }
+div.table{
+
+}
 .table{
     /* display: inline-block; */
     display: grid;
@@ -141,10 +144,14 @@ th, td, tr{
     background-size: auto;
     height: 160rem;
 }
+aside.maps{
+
+}
 
 .aside-form{
-    background-color: rgba(226, 218, 218, 0.521);
+    background-color: rgba(226, 218, 218, 0.753);
     width: 42vw;
+    height: fit-content;
 }
 h1.h1reg{
     text-align: center;
